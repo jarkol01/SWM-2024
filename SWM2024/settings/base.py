@@ -42,6 +42,7 @@ THIRD_PARTY_APPS = [
     "rest_framework_simplejwt",
     "django_extensions",
     "celery",
+    "corsheaders",
 ]
 
 LOCAL_APPS = [
@@ -58,6 +59,7 @@ MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "debug_toolbar.middleware.DebugToolbarMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -65,6 +67,8 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django.middleware.locale.LocaleMiddleware",
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 # ------------- URLS -------------
 ROOT_URLCONF = "SWM2024.urls"
@@ -156,6 +160,7 @@ DJOSER = {
     "SERIALIZERS": {
         "user": "SWM2024.accounts.serializers.UserSerializer",
         "current_user": "SWM2024.accounts.serializers.UserSerializer",
+        "user_create": "SWM2024.accounts.serializers.UserCreateSerializer",
     },
 }
 
