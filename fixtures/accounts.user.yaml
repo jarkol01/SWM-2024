@@ -1,5 +1,107 @@
 - model: accounts.customuser
-  pk: 1
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$720000$kxhRvaqMQ7ip9xExVe6K0o$XE4Hfmmej00gMvuU6/xlAn7WmRyLUtyFevsA77xdm1Q=
+    last_login: null
+    is_superuser: false
+    username: alicja_małysz
+    first_name: Alicja
+    last_name: Małysz
+    email: alicja.malysz@gmail.com
+    is_staff: false
+    is_active: true
+    date_joined: 2024-03-16 14:50:19+00:00
+    avatar: avatars/Female-LinkedIn-portrait.jpg
+    phone_number: '123456789'
+    groups: []
+    user_permissions: []
+- model: accounts.customuser
+  pk: 6
+  fields:
+    password: pbkdf2_sha256$720000$Uoq3ncSqjBKYwrN3KzXMoq$CBO1BoxIsRpTAUSk6oBy0zRmOii4iBXQaVQXlxvKd0E=
+    last_login: null
+    is_superuser: false
+    username: marcin_najman
+    first_name: Marcin
+    last_name: Najman
+    email: marcin.najman.1410@onet.pl
+    is_staff: false
+    is_active: true
+    date_joined: 2024-03-16 14:54:05+00:00
+    avatar: avatars/b439b9b8a5a1b0a40cbfe8969a67bf820000.jpg
+    phone_number: '123456789'
+    groups: []
+    user_permissions: []
+- model: accounts.customuser
+  pk: 14
+  fields:
+    password: pbkdf2_sha256$720000$UasLdHNKMOA1tgZT1WCJr7$M4jq2H9pkWtdrlROGV2oHBH3br4EOtLWBhl44ynYXlA=
+    last_login: null
+    is_superuser: false
+    username: grazyna_kwiatkowska
+    first_name: Grażyna
+    last_name: Kwiatkowska
+    email: grazia.kwiatek@interia.pl
+    is_staff: false
+    is_active: true
+    date_joined: 2024-03-16 15:55:03+00:00
+    avatar: avatars/360_F_141478965_yJ4enDFNG9x6Ncw59DoRcYmeRV5XUBsI.jpg
+    phone_number: '123456789'
+    groups: []
+    user_permissions: []
+- model: accounts.customuser
+  pk: 15
+  fields:
+    password: pbkdf2_sha256$720000$3ypFFqshvwqSmfn60xKVgx$xLqEtavtv0/KAQcErCtORfqaQ38K9R1VPA8rBCZgahg=
+    last_login: null
+    is_superuser: false
+    username: bronislawa_janowska
+    first_name: Bronek
+    last_name: Janowski
+    email: bronks.janek@gmail.com
+    is_staff: false
+    is_active: true
+    date_joined: 2024-03-16 16:04:13+00:00
+    avatar: avatars/10087069-Closeup-Profile-on-a-good-looking-Old-Man-Stock-Photo-face.jpg
+    phone_number: '123456789'
+    groups: []
+    user_permissions: []
+- model: accounts.customuser
+  pk: 16
+  fields:
+    password: pbkdf2_sha256$720000$MSnIINwE7POxXXiala9EoE$7wHnYxDIRrP2qikEyKuAmttpNFq0sqoLLHiNRjeF8YA=
+    last_login: null
+    is_superuser: false
+    username: genowefa_kowalczyk
+    first_name: Genowefa
+    last_name: Kowalczyk
+    email: gienia.kowal@gmail.com
+    is_staff: false
+    is_active: true
+    date_joined: 2024-03-16 16:09:29+00:00
+    avatar: avatars/360_F_56140454_q4nbUmTCcC1ovIJrOL1SxJuaYXwvSz68.jpg
+    phone_number: '123456789'
+    groups: []
+    user_permissions: []
+- model: accounts.customuser
+  pk: 17
+  fields:
+    password: pbkdf2_sha256$720000$7U0klTXg9MiS0nVxH8K9ft$HnjWnrqnVcLLT3y4g+fKr8EKDCs/rsgv/NzicyuF268=
+    last_login: null
+    is_superuser: false
+    username: barbara_szczała
+    first_name: Barbara
+    last_name: Szczała
+    email: basia.kielbasia@op.pl
+    is_staff: false
+    is_active: true
+    date_joined: 2024-03-16 16:14:43+00:00
+    avatar: ''
+    phone_number: '123456789'
+    groups: []
+    user_permissions: []
+- model: accounts.customuser
+  pk: 17
   fields:
     password: pbkdf2_sha256$216000$I8DAn8u038BD$xoa+mcF3OFfIkTmYRP9hXwvUlcGDtpSv7XRIsG8tN7A=
     last_login: 2024-01-19 22:26:38.398530+00:00
@@ -10,6 +112,8 @@
     email: admin@example.com
     is_staff: true
     is_active: true
-    date_joined: 2024-01-19 22:08:32.155573+00:00
-    groups: []
-    user_permissions: []
+    date_joined: 2024-03-16 16:14:43+00:00
+    avatar: ''
+    phone_number: '123456789'
+    groups: [ ]
+    user_permissions: [ ]

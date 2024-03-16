@@ -1,0 +1,147 @@
+- model: posts.post
+  pk: 1
+  fields:
+    created: 2024-03-16 14:51:59.887380+00:00
+    modified: 2024-03-16 14:51:59.887401+00:00
+    title: Zagraj z moim dziadkiem w szachy!
+    short_description: Dziadek jest zapalonym szachistą! Narzeka na brak godnych przeciwników.
+      Jesteś pewien swoich sił? Napisz!
+    description: Nasz dziadek jest wielkim miłośnikiem szachów, który od wielu lat
+      oddaje się temu pięknemu sportowi umysłowemu. Niestety, od pewnego czasu coraz
+      rzadziej ma okazję grać z kimś na poziomie, co bardzo go smuci. Dlatego też,
+      w imieniu naszej wnuczki, poszukujemy kogoś, kto podzieliłby się swoją pasją
+      do szachów i regularnie spotykałby się z naszym dziadkiem na partie. Nasz dziadek
+      jest wspaniałym partnerem do gry - nie tylko ma ogromne doświadczenie, ale również
+      chętnie dzieli się swoją wiedzą i strategiami. Spotkania mogą odbywać się u
+      naszych dziadków w domu lub w wybranym przez Ciebie miejscu. Jeśli jesteś osobą,
+      która kocha szachy tak samo jak my, i chciałbyś/chciałabyś podzielić się tą
+      pasją z naszym dziadkiem, prosimy o kontakt!
+    issuer: 5
+    start_timestamp: 2024-03-18 11:00:00+00:00
+    end_timestamp: 2024-03-18 13:00:00+00:00
+    location: Kraków, Bronowice
+    price: '0.00'
+    visible: true
+- model: posts.post
+  pk: 2
+  fields:
+    created: 2024-03-16 15:51:35.056745+00:00
+    modified: 2024-03-16 15:51:59.838185+00:00
+    title: Babcia potrzbuje pomocy w myciu okien
+    short_description: Moja kochana babunia nie ma sił umyć okien w kamienicy. A ja
+      muszę bronić Częstochowy!
+    description: Nasza kochana babunia Boża, która od lat troszczy się o naszą kamienicę,
+      ma coraz większe trudności z utrzymaniem jej w czystości, szczególnie jeśli
+      chodzi o okna. Niestety, z powodu moich obowiązków, często nie mogę jej w tym
+      pomóc tak, jakbym chciał. Jednakże, pomimo moich zobowiązań, wciąż czuję się
+      odpowiedzialny za jej bezpieczeństwo i dobro. Dlatego też, szukamy osoby, która
+      mogłaby regularnie pomagać babci Bożej przy sprzątaniu okien. To prosta praca,
+      ale dla babci ogromnie ważna, a ja muszę pozostać na posterunku, aby bronić
+      naszej ukochanej Częstochowy. Jeśli jesteś osobą, która chciałaby włączyć się
+      w tę szlachetną misję, prosimy o kontakt! Twój wkład będzie dla nas niezmiernie
+      cenny, a nasza babunia Boża będzie Ci wdzięczna za każdą pomocną dłoń.
+    issuer: 6
+    start_timestamp: 2024-03-20 08:00:00+00:00
+    end_timestamp: 2024-03-20 10:30:00+00:00
+    location: Kraków, Prądnik Czerwony
+    price: '60.00'
+    visible: true
+- model: posts.post
+  pk: 3
+  fields:
+    created: 2024-03-16 15:57:45.208210+00:00
+    modified: 2024-03-16 16:01:28.512517+00:00
+    title: Pomoc w pójściu do lekarza
+    short_description: Mam umówioną wizytę do lekarza rodzinnego, ale to trochę daleko
+      :(
+    description: Jestem osobą starszą i mieszkam samotnie, a ostatnio moje zdrowie
+      nieco się pogorszyło, dlatego umówiłem się na ważną wizytę do lekarza rodzinnego.
+      Niestety, gabinet medyczny, do którego mam się udać, znajduje się dość daleko
+      ode mnie, a moje możliwości poruszania się są ograniczone. Dlatego zwracam się
+      z gorącą prośbą o pomoc - szukam kogoś, kto mógłby mi towarzyszyć na tej wizycie.
+      Może to wydawać się drobny gest, ale dla mnie jest to ogromne wsparcie i ulga.
+      Czuję się pewniej, mając kogoś przy sobie, kto mógłby mi pomóc w przemieszczaniu
+      się oraz zrozumieć to, co mówi lekarz. Jestem osobą bardzo wdzięczną i chętnie
+      podzielę się kosztami podróży. Jeśli masz chwilę wolnego czasu i serce do pomocy,
+      proszę, skontaktuj się ze mną. Twoja dobroć będzie dla mnie nieoceniona, a ja
+      bardzo to docenię.
+    issuer: 14
+    start_timestamp: 2024-03-18 12:45:00+00:00
+    end_timestamp: 2024-03-18 13:00:00+00:00
+    location: Kraków, Zwierzyniec
+    price: '15.00'
+    visible: true
+- model: posts.post
+  pk: 4
+  fields:
+    created: 2024-03-16 16:06:35.138221+00:00
+    modified: 2024-03-16 16:07:14.552340+00:00
+    title: Spacer z puchatym pieskiem
+    short_description: Ostatnio złamałem nogę na turnieju Brydża, ale ktoś musi wychodzić
+      z moim pieskiem, płacę złotem!
+    description: Niedawno miałam pechowy wypadek podczas turnieju Brydża i złamałem
+      nogę. Znalezienie się w tej sytuacji oznacza, że teraz muszę pozostać w domu
+      i zrobić sobie przymusową przerwę od codziennych spacerów z moim ukochanym pieskiem.
+      Jednakże, mój puchaty przyjaciel nie może cierpieć z powodu mojego urazu, dlatego
+      pilnie szukam kogoś, kto mógłby regularnie wychodzić z nim na spacery. Jestem
+      gotowy solidnie wynagrodzić tę osobę - płacę złotem za każdy spacer! Mój piesek
+      jest niesamowicie przyjacielski i kochający, więc będzie dla Ciebie wspaniałym
+      towarzyszem podczas tych spacerów. Jeśli masz trochę wolnego czasu i chęć, aby
+      pomóc mi w tej sytuacji, proszę, daj mi znać! Twój wkład nie tylko ulży w potrzebach
+      mojego pieska, ale także bardzo mi ulży w tej trudnej dla mnie sytuacji.
+    issuer: 15
+    start_timestamp: 2024-03-30 06:00:00+00:00
+    end_timestamp: 2024-03-30 06:30:00+00:00
+    location: Kraków, Prądnik Biały
+    price: '30.00'
+    visible: true
+- model: posts.post
+  pk: 5
+  fields:
+    created: 2024-03-16 16:12:21.836723+00:00
+    modified: 2024-03-16 16:12:28.636183+00:00
+    title: Adobe Reader - pomoc młodego dżentelmena
+    short_description: Poszukuję kogoś, kto mógłby mi pomóc zainstalować program Adobe
+      Reader na moim komputerze.
+    description: Jestem osobą, która nie jest zbyt biegła w obsłudze komputera, ale
+      ostatnio potrzebuję programu Adobe Reader do pracy z dokumentami PDF. Niestety,
+      mam trudności z instalacją tego oprogramowania na moim komputerze. Szukam zatem
+      kogoś, kto mógłby mi pomóc w tej kwestii. Jeśli jesteś osobą, która ma doświadczenie
+      w instalowaniu programów na komputerze i potrafi wyjaśnić mi krok po kroku,
+      jak to zrobić, byłbym bardzo wdzięczny za Twoją pomoc. Mogę zapewnić Ci herbatę
+      lub kawę oraz miłą rozmowę w zamian za Twoją asystę. Jeśli chcesz mi pomóc zainstalować
+      Adobe Readera i sprawić, żeby moje życie było trochę łatwiejsze, proszę, daj
+      mi znać! Twoja pomoc będzie dla mnie niezmiernie cenna.
+    issuer: 16
+    start_timestamp: 2024-03-17 09:00:00+00:00
+    end_timestamp: 2024-03-17 17:00:00+00:00
+    location: Kraków, Nowa Huta
+    price: '40.00'
+    visible: true
+- model: posts.post
+  pk: 6
+  fields:
+    created: 2024-03-16 16:17:35.473503+00:00
+    modified: 2024-03-16 16:17:35.473517+00:00
+    title: Moje żonkile cię potrzebują :(
+    short_description: Moje żonkile pilnie potrzebują opieki, ale mam problemy z plecami
+      i nie moge się schylać, pomocy!
+    description: Moje kochane żonkile, które zawsze były moim dumem i radością, niestety
+      teraz wymagają pilnej opieki, a ja sam zmagam się z problemami z plecami, które
+      uniemożliwiają mi swobodne schylanie się i pielęgnowanie moich roślin. Jest
+      to dla mnie ogromnie frustrujące, ponieważ nie mogę zapewnić im odpowiedniej
+      troski, jakiej zasługują. Dlatego też, zwracam się z gorącą prośbą o pomoc -
+      szukam kogoś, kto mógłby zająć się moimi żonkilami, zapewniając im regularną
+      pielęgnację i uwagę. Jeśli jesteś osobą, która ma zielone palce i chętnie poświęciłaby
+      trochę czasu na opiekę nad moimi kwiatami, byłbym niezmiernie wdzięczny za Twoją
+      pomoc. Mogę zapewnić Ci wszelkie niezbędne narzędzia i materiały, aby ułatwić
+      Ci zadanie. W zamian oferuję Ci wdzięczność oraz możliwość podziwiania kwitnących
+      żonkili, gdy wrócą do pełni zdrowia. Jeśli masz serce do roślin i chciałbyś/chciałabyś
+      mi pomóc w tej trudnej sytuacji, proszę, odezwij się do mnie. Moje żonkile i
+      ja bardzo na to liczymy.
+    issuer: 17
+    start_timestamp: 2024-03-22 08:00:00+00:00
+    end_timestamp: 2024-03-22 10:00:00+00:00
+    location: Kraków, Nowy Bieżanów
+    price: '120.00'
+    visible: true
