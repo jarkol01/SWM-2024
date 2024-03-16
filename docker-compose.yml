@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  web:
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"
+    links:
+      - postgres:postgres
+    volumes:
+      - .:/app
+    environment:
+      POSTGRES_HOST: postgres
+    command: "python manage.py runserver 0:8000"
+    depends_on:
+      - postgres
+
+  postgres:
+    restart: always
+    image: postgres:13-alpine
+    container_name: SWM2024_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data/
+    environment:
+        POSTGRES_USER: SWM2024
+        POSTGRES_PASSWORD: SWM2024
+        POSTGRES_DB: SWM2024
+
+volumes:
+  pgdata:
