@@ -1,9 +1,10 @@
+from djoser.serializers import UserCreateSerializer
 from rest_framework import serializers
 
 from SWM2024.accounts.models import CustomUser
 
 
-class UserCreateSerializer(serializers.ModelSerializer):
+class CustomUserCreateSerializer(UserCreateSerializer):
     class Meta:
         model = CustomUser
         fields = [

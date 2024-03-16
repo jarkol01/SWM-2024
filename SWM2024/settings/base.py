@@ -160,7 +160,7 @@ DJOSER = {
     "SERIALIZERS": {
         "user": "SWM2024.accounts.serializers.UserSerializer",
         "current_user": "SWM2024.accounts.serializers.UserSerializer",
-        "user_create": "SWM2024.accounts.serializers.UserCreateSerializer",
+        "user_create": "SWM2024.accounts.serializers.CustomUserCreateSerializer",
     },
 }
 
