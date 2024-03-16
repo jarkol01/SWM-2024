@@ -5,6 +5,11 @@ from django.utils.translation import gettext_lazy as _
 from SWM2024.accounts.models import CustomUser
 
 
+class ObservedInline(admin.TabularInline):
+    model = CustomUser.observed_posts.through
+    extra = 0
+
+
 @admin.register(CustomUser)
 class CustomUserAdmin(UserAdmin):
     fieldsets = (
@@ -17,6 +22,7 @@ class CustomUserAdmin(UserAdmin):
                     "last_name",
                     "email",
                     "avatar",
+                    "phone_number",
                 )
             },
         ),
@@ -34,3 +40,5 @@ class CustomUserAdmin(UserAdmin):
         ),
         (_("Important dates"), {"fields": ("last_login", "date_joined")}),
     )
+
+    inlines = [ObservedInline]

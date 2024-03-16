@@ -45,7 +45,8 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "SWM2024.accounts.apps.AccountsConfig",
+    "SWM2024.accounts",
+    "SWM2024.posts",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

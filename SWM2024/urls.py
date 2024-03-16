@@ -21,6 +21,7 @@ schema_view = get_schema_view(
 
 api_urls = [
     path("", include("SWM2024.accounts.urls")),
+    path("", include("SWM2024.posts.urls")),
 ]
 
 urlpatterns = [
